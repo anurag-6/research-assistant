@@ -1,0 +1,14 @@
+[project]
+name = "research-assistant"
+version = "0.1.0"
+description = "A langgraph application for assisting the user on any input topic"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "langchain>=1.2.3",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.7",
+    "python-dotenv>=1.2.1",
+    "wikipedia>=1.4.0",
+]
